@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <ToggleButton
+            android:id="@+id/preview_onoff"
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:checked="false"
+            android:textOff="@string/preview_on"
+            android:textOn="@string/preview_off"
+            android:textSize="@dimen/font_size_act_main" />
+</merge>
+
+

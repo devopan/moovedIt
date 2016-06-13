@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+	android:background="#3C3C3D"
+    tools:context="pcdiy.moovedit.MainActivity$PlaceholderFragment"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+    
+    <LinearLayout android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/dr_border"
+	    android:layout_weight="0.3"
+	    android:orientation="vertical" >
+        
+        <ToggleButton
+            android:id="@+id/begin_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textOff="@string/begin"
+            android:textOn="@string/end"
+            android:textSize="@dimen/font_size_act_main" />
+        
+        <include layout="@layout/compound_button" />
+        
+        <Button
+            android:id="@+id/fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fullscreen"
+            android:textSize="@dimen/font_size_act_main"
+            android:enabled="false" />
+        
+        <Button
+            android:id="@+id/conn_dslr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conn_dslr"
+            android:textSize="@dimen/font_size_act_main"
+            android:enabled="false" />
+        
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery"
+            android:textSize="@dimen/font_size_act_main" />
+        
+        <Button
+            android:id="@+id/launch_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_camera"
+            android:textSize="@dimen/font_size_act_main"
+            android:visibility="gone" />
+        	
+    </LinearLayout>
+    
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:background="@color/lightgray"
+        android:orientation="vertical" >
+        
+        <pcdiy.moovedit.UnifiedCamera
+	        android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:visibility="gone"
+	        android:id="@+id/unified_surface_view"
+	        opencv:show_fps="true" />
+        
+    </FrameLayout>
+    
+     
+
+	    
+
+	
+</LinearLayout>

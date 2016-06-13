@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <PreferenceCategory 
+        android:title="Detection-related"
+        android:key="cat_detection">
+        <pcdiy.moovedit.SeekbarImpl
+            android:key="threshold"
+            android:title="Detection Sensitivity"
+            android:summary="Adjust the sensitivity of the sensor to suit your surroundings."
+            android:defaultValue="800"
+            android:max="2000" />
+	    <ListPreference
+	        android:key="algorithm"
+	        android:title="Detection Methods"
+	        android:summary="Select a method to be used in detection"
+	        android:dialogTitle="Detection Methods"
+	        android:entries="@array/list_entries2"
+	        android:entryValues="@array/list_values2" 
+	        android:defaultValue="1"  />
+	    <SwitchPreference
+	        android:key="locate_object"
+	        android:title="Detect moving object location"
+	        android:summaryOn="Object location detection is Enabled."
+	        android:summaryOff="Object location detection is Disabled."
+	        android:switchTextOff="OFF"
+	        android:switchTextOn="ON"
+	        android:defaultValue="false" 
+	        android:enabled="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="Miscellaneous"
+        android:key="cat_misc">
+	    <ListPreference
+	        android:key="resolution"
+	        android:title="Camera Resolutions"
+	        android:summary="Pick one of the resolutions supported by your camera"
+	        android:dialogTitle="Supported Camera Resolutions"
+	        android:entries="@array/list_entries1"
+	        android:entryValues="@array/list_values1" />
+	    <ListPreference
+	        android:key="preview_effect"
+	        android:title="Preview Effects"
+	        android:summary="Select a desired preview effect"
+	        android:dialogTitle="Preview Effects"
+	        android:entries="@array/list_entries3"
+	        android:entryValues="@array/list_values3"
+	        android:defaultValue="1"
+	         />
+    </PreferenceCategory>
+</PreferenceScreen>

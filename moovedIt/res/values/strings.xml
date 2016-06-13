@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MoovedIt</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="launch_camera">Switch to Android camera</string>
+    <string name="prefs">Preferences</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_properties">Image properties</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_select_check">Select individual</string>
+    <string name="action_select_delete">Delete selected</string>
+    <string name="action_select_properties">Properties</string>
+    <string name="help_text">Flip the switch to start camera preview.\n\nTouch screen to take pictures manually at any time.\n\nClick the Capture button to start processing frames automatically for motion detection.\n\nFullscreen -\n\nConnect to DSLR -\n\nClick the gallery button to view and delete photos.\n\nSettings: \n\nDetection Sensitivity: Adjust the sensitivity; the higher the value the more responsive the sensor.\n\nMotion detection methods: Various algorithms implemented for motion detection.\n\nObject detection: -\n\nCamera resolutions: Select from the list to see if it is supported by your camera.\n\nEffects: Only a few with a lot more to come.</string>
+    <string name="begin">Begin capture</string>
+    <string name="end">End capture</string>
+    <string name="preview_on">Enable</string>
+    <string name="preview_off">Disable</string>
+    <string name="exit">Exit</string>
+    <string name="btn_ok">OK</string>
+    <string name="about_text">Version:   Alpha v1.0\n\n\n\nThis tool can automatically snap photos of moving objects! \n\nThis is only a prototype version with the main release still under development so check for updates regularly! \n\nAlso, please provide feedback and/or recommendations at dpmalamas@gmail.com when you can as it is very crucial at this stage! Anything from wrong colors to app crashes to anything else small or big that you may spot &#8230; and thanks ! \n\nHave fun using this app ! &#8230; or not :)</string>
+    <string name="gallery">Open Gallery</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="conn_dslr">Connect a DSLR</string>
+    <string name="img_del_title">Delete photo ?</string>
+    <string name="img_del_txt">By selecting "Delete" the photo will be deleted.</string>
+    <string name="img_del_delete">Delete</string>
+    <string name="img_del_cancel">Cancel</string>
+    <string name="img_del_share">Share</string>
+    <string name="action_help">Help</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="help_title">User Manual</string>
+
+</resources>

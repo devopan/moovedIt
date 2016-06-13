@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_entries1">
+        <item>176 x 144</item>
+        <item>459 x 259</item>
+        <item>352 x 288</item>
+        <item>384 x 288</item>
+        <item>480 x 320</item>
+        <item>576 x 432</item>
+        <item>720 x 480</item>
+        <item>768 x 432</item>
+        <item>864 x 480</item>
+        <item>640 x 480</item>
+        <item>1024 x 768</item>
+        <item>1280 x 720</item>
+        <item>1600 x 1200</item>
+        <item>1920 x 1080</item>
+        <item>2048 x 1536</item>
+        <item>2592 x 1944</item>
+        <item>3072 x 2304</item>
+        <item>3264 x 2448</item>
+        <item>3648 x 2736</item>
+        <item>4000 x 3000</item>
+    </string-array>
+    <string-array name="list_values1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="list_entries2">
+        <item>sumElems</item>
+        <item>absdiff </item>
+        <item>matchTemplate</item>
+        <item>compare</item>
+        <item>subtract</item>
+        <item>nativeCall</item>
+        <item>BackSubMOG </item>
+    </string-array>
+    <string-array name="list_values2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="list_entries3">
+        <item>None</item>
+        <item>Gray</item>
+        <item>Canny</item>
+        <item>Sobel</item>
+    </string-array>
+    <string-array name="list_values3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        
+        <color name="actionbar_text">#ffffff</color>
+        <color name="selected_background">#3313EB</color>
+        <color name="selected_background_default">#ffffff</color>
+        <color name="background">#D0D0D0</color>
+		<color name="background1">#E4F9BD</color>
+		<color name="lightgray">#F0F0F0</color>
+    </resources>
